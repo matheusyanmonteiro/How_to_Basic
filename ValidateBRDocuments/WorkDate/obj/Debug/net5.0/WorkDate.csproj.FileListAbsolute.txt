@@ -1,0 +1,16 @@
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\bin\Debug\net5.0\WorkDate.exe
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\bin\Debug\net5.0\WorkDate.deps.json
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\bin\Debug\net5.0\WorkDate.runtimeconfig.json
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\bin\Debug\net5.0\WorkDate.runtimeconfig.dev.json
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\bin\Debug\net5.0\WorkDate.dll
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\bin\Debug\net5.0\ref\WorkDate.dll
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\bin\Debug\net5.0\WorkDate.pdb
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\obj\Debug\net5.0\WorkDate.csproj.AssemblyReference.cache
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\obj\Debug\net5.0\WorkDate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\obj\Debug\net5.0\WorkDate.AssemblyInfoInputs.cache
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\obj\Debug\net5.0\WorkDate.AssemblyInfo.cs
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\obj\Debug\net5.0\WorkDate.csproj.CoreCompileInputs.cache
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\obj\Debug\net5.0\WorkDate.dll
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\obj\Debug\net5.0\ref\WorkDate.dll
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\obj\Debug\net5.0\WorkDate.pdb
+C:\Users\Matheus.Monteiro\Documents\How To Basic\ValidateBRDocuments\WorkDate\obj\Debug\net5.0\WorkDate.genruntimeconfig.cache
