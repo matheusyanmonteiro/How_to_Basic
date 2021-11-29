@@ -1,0 +1,16 @@
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\bin\Debug\net5.0\WorkContract.exe
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\bin\Debug\net5.0\WorkContract.deps.json
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\bin\Debug\net5.0\WorkContract.runtimeconfig.json
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\bin\Debug\net5.0\WorkContract.runtimeconfig.dev.json
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\bin\Debug\net5.0\WorkContract.dll
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\bin\Debug\net5.0\ref\WorkContract.dll
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\bin\Debug\net5.0\WorkContract.pdb
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\obj\Debug\net5.0\WorkContract.csproj.AssemblyReference.cache
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\obj\Debug\net5.0\WorkContract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\obj\Debug\net5.0\WorkContract.AssemblyInfoInputs.cache
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\obj\Debug\net5.0\WorkContract.AssemblyInfo.cs
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\obj\Debug\net5.0\WorkContract.csproj.CoreCompileInputs.cache
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\obj\Debug\net5.0\WorkContract.dll
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\obj\Debug\net5.0\ref\WorkContract.dll
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\obj\Debug\net5.0\WorkContract.pdb
+C:\Users\Matheus.Monteiro\Documents\How To Basic\WorkContract\WorkContract\obj\Debug\net5.0\WorkContract.genruntimeconfig.cache
