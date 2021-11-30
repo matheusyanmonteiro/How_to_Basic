@@ -30,3 +30,6 @@ C:/Users/Matheus.Monteiro/Documents/How To Basic/WorkContract/WorkContract/obj/D
 /home/mtfs/Documents/projects/How_to_Basic/WorkContract/WorkContract/obj/Debug/net5.0/ref/WorkContract.dll
 /home/mtfs/Documents/projects/How_to_Basic/WorkContract/WorkContract/obj/Debug/net5.0/WorkContract.pdb
 /home/mtfs/Documents/projects/How_to_Basic/WorkContract/WorkContract/obj/Debug/net5.0/WorkContract.genruntimeconfig.cache
+/home/mtfs/Documents/projects/How_to_Basic/WorkContract/WorkContract/bin/Debug/net5.0/Caelum.Stella.CSharp.dll
+/home/mtfs/Documents/projects/How_to_Basic/WorkContract/WorkContract/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/mtfs/Documents/projects/How_to_Basic/WorkContract/WorkContract/obj/Debug/net5.0/WorkContract.csproj.CopyComplete

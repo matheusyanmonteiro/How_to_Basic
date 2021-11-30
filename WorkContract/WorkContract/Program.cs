@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Globalization;
+using Caelum.Stella.CSharp.Format;
+using Caelum.Stella.CSharp.Http;
+using Caelum.Stella.CSharp.Vault;
 
 namespace WorkContract
 {
@@ -6,32 +10,41 @@ namespace WorkContract
   {
     static void Main(string[] args)
     {
+      ViaCEP viaCep = new ViaCEP();
+      CNPJFormatter cnpjFormatter = new CNPJFormatter();
+      CPFFormatter cpfFormatter = new CPFFormatter();
+
       var contract = new
       {
         Empresa = new
         {
           razaoSocial = "Alcapone serviços de alcool LTDA.",
-          CNPJ = "67942488000147"
+          CNPJ = cnpjFormatter.Format("67942488000147"),
+          endereco = viaCep.GetEndereco("71884300"),
+          numero = "i23 F"
         },
         Funcionario = new
         {
           nome = "Mateus Maia",
-          CPF = "14290678025",
+          CPF = cpfFormatter.Format("14290678025"),
           RG = "123456789-00",
           nacionalidade = "brhue",
-          estadoCivil = "casado"
+          estadoCivil = "casado",
+          endereco = viaCep.GetEndereco("07091000"),
+          numero = "234"
         },
+
         Inicio = new DateTime(2018, 1, 1),
         Cargo = "Cobrador",
-        Salario = 3002.22
+        Salario = new Money(3002.22)
       };
 
       string document = $@"                     
                                                 CONTRATO INDIVIDUAL DE TRABALHO TEMPORÁRIO
 
-        EMPREGADOR: {contract.Empresa.razaoSocial}, com sede à(LOGRADOURO), (NUMERO), (BAIRRO), CEP(CEP), (LOCALIDADE), (UF), inscrita no CNPJ sob nº {contract.Empresa.CNPJ};
+        EMPREGADOR: {contract.Empresa.razaoSocial}, com sede à {contract.Empresa.endereco.Logradouro}, {contract.Empresa.numero}, {contract.Empresa.endereco.Bairro}, CEP {contract.Empresa.endereco.CEP}, {contract.Empresa.endereco.Localidade}, {contract.Empresa.endereco.UF}, inscrita no CNPJ sob nº {contract.Empresa.CNPJ};
 
-        EMPREGADO: {contract.Funcionario.nome}, {contract.Funcionario.nacionalidade}, {contract.Funcionario.estadoCivil}, portador da cédula de identidade R.G.nº {contract.Funcionario.RG} e CPF/ MF nº {contract.Funcionario.CPF}, residente e domiciliado na(LOGRADOURO), (NUMERO), (BAIRRO), CEP(CEP), (LOCALIDADE), (UF).
+        EMPREGADO: {contract.Funcionario.nome}, {contract.Funcionario.nacionalidade}, {contract.Funcionario.estadoCivil}, portador da cédula de identidade R.G.nº {contract.Funcionario.RG} e CPF/ MF nº {contract.Funcionario.CPF}, residente e domiciliado na {contract.Funcionario.endereco.Logradouro}, {contract.Funcionario.numero}, {contract.Funcionario.endereco.Bairro}, CEP {contract.Funcionario.endereco.CEP}, {contract.Funcionario.endereco.Localidade}, {contract.Funcionario.endereco.UF}.
 
         Pelo presente instrumento particular de contrato individual de trabalho, fica justo e contratado o seguinte:
 
@@ -39,7 +52,7 @@ namespace WorkContract
 
             Cláusula 2ª - Não haverá expediente nos dias de sábado, sendo prestado a compensação de horário semanal;
 
-            Cláusula 3ª - O EMPREGADOR pagará mensalmente, ao EMPREGADO, a título de salário a importância de {contract.Salario} (SALÁRIO POR EXTENSO), com os descontos previstos por lei;
+            Cláusula 3ª - O EMPREGADOR pagará mensalmente, ao EMPREGADO, a título de salário a importância de {contract.Salario.ToString()} ({contract.Salario.Extenso()}), com os descontos previstos por lei;
 
             Cláusula 4ª - Estará o EMPREGADO subordinado a legislação vigente no que diz respeito aos descontos de faltas e demais sanções disciplinares contidas na Consolidação das Leis do Trabalho.
 
@@ -49,7 +62,7 @@ namespace WorkContract
 
             Como prova do acordado, assinam instrumento, afirmado e respeitando seu teor por inteiro, e firmam conjuntamente a este duas testemunhas, comprovando as razões descritas.
 
-            (LOCALIDADE), (DATA POR EXTENSO)
+            {contract.Empresa.endereco.Localidade}, {DateTime.Today.ToString("D", new CultureInfo("pt-BR"))}
 
 
             _______________________________________________________
