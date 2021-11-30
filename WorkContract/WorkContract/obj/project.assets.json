@@ -8,26 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Matheus.Monteiro\\.nuget\\packages\\": {}
+    "/home/mtfs/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus.Monteiro\\Documents\\How To Basic\\WorkContract\\WorkContract\\WorkContract.csproj",
+      "projectUniqueName": "/home/mtfs/Documents/projects/How_to_Basic/WorkContract/WorkContract/WorkContract.csproj",
       "projectName": "WorkContract",
-      "projectPath": "C:\\Users\\Matheus.Monteiro\\Documents\\How To Basic\\WorkContract\\WorkContract\\WorkContract.csproj",
-      "packagesPath": "C:\\Users\\Matheus.Monteiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus.Monteiro\\Documents\\How To Basic\\WorkContract\\WorkContract\\obj\\",
+      "projectPath": "/home/mtfs/Documents/projects/How_to_Basic/WorkContract/WorkContract/WorkContract.csproj",
+      "packagesPath": "/home/mtfs/.nuget/packages/",
+      "outputPath": "/home/mtfs/Documents/projects/How_to_Basic/WorkContract/WorkContract/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Matheus.Monteiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/mtfs/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -60,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }

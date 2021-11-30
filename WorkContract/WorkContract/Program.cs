@@ -2,25 +2,36 @@
 
 namespace WorkContract
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+      var contract = new
+      {
+        Empresa = new
         {
-            var contract = new
-            {
-                Empresa = "Alcapone serviços de alcool LTDA.",
-                Funcionario = "Mateus Maia",
-                Inicio = new DateTime(2018, 1, 1),
-                Cargo = "Cobrador",
-                Salario = 3002.22
-            };
+          razaoSocial = "Alcapone serviços de alcool LTDA.",
+          CNPJ = "67942488000147"
+        },
+        Funcionario = new
+        {
+          nome = "Mateus Maia",
+          CPF = "14290678025",
+          RG = "123456789-00",
+          nacionalidade = "brhue",
+          estadoCivil = "casado"
+        },
+        Inicio = new DateTime(2018, 1, 1),
+        Cargo = "Cobrador",
+        Salario = 3002.22
+      };
 
-            string document = $@"                     
+      string document = $@"                     
                                                 CONTRATO INDIVIDUAL DE TRABALHO TEMPORÁRIO
 
-        EMPREGADOR: {contract.Empresa}, com sede à(LOGRADOURO), (NUMERO), (BAIRRO), CEP(CEP), (LOCALIDADE), (UF), inscrita no CNPJ sob nº(CNPJ);
+        EMPREGADOR: {contract.Empresa.razaoSocial}, com sede à(LOGRADOURO), (NUMERO), (BAIRRO), CEP(CEP), (LOCALIDADE), (UF), inscrita no CNPJ sob nº {contract.Empresa.CNPJ};
 
-        EMPREGADO: {contract.Funcionario}, (NACIONALIDADE), (ESTADO CIVIL), portador da cédula de identidade R.G.nº(RG) e CPF/ MF nº(CPF), residente e domiciliado na(LOGRADOURO), (NUMERO), (BAIRRO), CEP(CEP), (LOCALIDADE), (UF).
+        EMPREGADO: {contract.Funcionario.nome}, {contract.Funcionario.nacionalidade}, {contract.Funcionario.estadoCivil}, portador da cédula de identidade R.G.nº {contract.Funcionario.RG} e CPF/ MF nº {contract.Funcionario.CPF}, residente e domiciliado na(LOGRADOURO), (NUMERO), (BAIRRO), CEP(CEP), (LOCALIDADE), (UF).
 
         Pelo presente instrumento particular de contrato individual de trabalho, fica justo e contratado o seguinte:
 
@@ -42,10 +53,10 @@ namespace WorkContract
 
 
             _______________________________________________________
-            {contract.Empresa}
+            {contract.Empresa.razaoSocial}
 
             _______________________________________________________
-            {contract.Funcionario}
+            {contract.Funcionario.nome}
 
             _______________________________________________________
             (Nome, R.G, Testemunha)
@@ -53,9 +64,9 @@ namespace WorkContract
             _______________________________________________________
             (Nome, R.G, Testemunha)";
 
-            Console.WriteLine(document);
-            Console.ReadKey();
+      Console.WriteLine(document);
+      Console.ReadKey();
 
-        }
     }
+  }
 }

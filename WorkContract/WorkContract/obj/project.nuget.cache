@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5Ql0xYEi6+lVjzx4J3kmZ+SY6HH8s7LkBAjX2XM6yFWK+6gFcWyTkbfM6Ylc370XYbVQjbE/ldHtAds7m8TgUQ==",
+  "dgSpecHash": "FPqIZqHGuZkniXxZfW2vc3S3/+/IPGgrf/dUIgHGuiiVh+kaWQxklM+LWi9IsjYoLjhRBGU5XYbGUpe0mjyCOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matheus.Monteiro\\Documents\\How To Basic\\WorkContract\\WorkContract\\WorkContract.csproj",
+  "projectFilePath": "/home/mtfs/Documents/projects/How_to_Basic/WorkContract/WorkContract/WorkContract.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
